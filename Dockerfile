@@ -8,4 +8,5 @@ COPY . .
 RUN npm run build
 
 FROM nginx
+RUN mv /usr/share/nginx/html/index.html /usr/share/nginx/html/index-backup.html 
 COPY --from=builder /app/build /usr/share/nginx/html

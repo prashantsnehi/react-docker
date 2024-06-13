@@ -19,7 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <p>Created and builded by: Prashant Kumar Snehi</p>
+      <p>Prashant Kumar Snehi <br />mob: 9810013306 <br />e-mail: prashant.snehi@gmail.com</p>
     </div>
   );
 }
