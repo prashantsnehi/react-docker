@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>React app running in container</h1>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,7 +18,6 @@ function App() {
           Learn React
         </a>
       </header>
-      <p>Prashant Kumar Snehi <br />mob: +91 98100 13306 <br />e-mail: prashant.snehi@gmail.com</p>
     </div>
   );
 }
