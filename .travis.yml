@@ -6,4 +6,4 @@ before_install:
   - docker build -t psnehi/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run psnehi/docker-react npm run test -- --coverage
+  - docker run -e CI=true psnehi/docker-react npm run test
