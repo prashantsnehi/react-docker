@@ -1,5 +1,4 @@
 sudo: required
-
 services:
   - docker
 
@@ -10,7 +9,7 @@ script:
   - docker run -e CI=true psnehi/docker-react npm run test -- --coverage
 
 deploy:
-  provider: elasticbeanstalk
+  provider : elasticbeanstalk
   region: "ap-south-1"
   app: "frontend"
   env: "Frontend-env"
